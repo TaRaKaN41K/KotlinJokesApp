@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityDataSensitive="no"
+    android:accessibilityHeading="false"
+    android:background="@color/black"
+    android:foregroundTint="#FFFFFF"
+    android:foregroundTintMode="add"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="202dp">
+
+    <Button
+        android:id="@+id/API_button"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#232323"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="API"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/me_button"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#232323"
+        android:fontFamily="@font/alfa_slab_one"
+        android:onClick="myNameIs"
+        android:text="Me"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="@font/alfa_slab_one"
+        android:rotation="-32"
+        android:rotationX="45"
+        android:text="Kotlin App"
+        android:textColor="@color/material_dynamic_neutral_variant60"
+        android:textColorLink="#7D6E6E"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/review_button"
+        android:layout_width="395dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#232323"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="review"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
